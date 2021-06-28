@@ -1,0 +1,20 @@
+.container {
+  z-index: 0;
+  display: flex;
+  justify-items: flex-start;
+  min-height: 100vh;
+}
+
+.menu {
+  height: 100%;
+  width: 80vh;
+  background: white;
+  z-index: 101;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}

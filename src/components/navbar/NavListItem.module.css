@@ -1,0 +1,49 @@
+.list-item {
+  list-style: none;
+  height: var(--navbar-height);
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-weight: 500;
+  transition: .2s all linear;
+}
+
+.list-item:hover {
+  color: var(--primary-light);
+}
+
+.active {
+  color: var(--primary)!important;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+  font-weight: 600;
+  gap: .5rem;
+}
+
+@media all and (max-width: 600px){
+  .list-item {
+    display: none;
+  }
+  
+  .cart-list-item {
+    display: block;
+  }
+
+  .link {
+    padding: .5rem;
+    text-align: center;
+    display: none;
+  }
+
+  .cart-link {
+    display: block;
+  }
+}

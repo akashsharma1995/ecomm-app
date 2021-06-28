@@ -1,0 +1,77 @@
+@media all and (min-width:600px) {
+  .cards {
+    display: none;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  border: 1px solid var(--primary-border-color);
+  margin-bottom: .5rem;
+}
+
+.date {
+  margin: 1rem .5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+.total-cont {
+  margin: 1rem .5rem;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.2rem;
+  display: flex;
+  width: 100%;
+}
+
+.total-cont span {
+  display: flex;
+  align-items: center;
+}
+
+.order-items {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  border-top: 1px solid var(--primary-border-color);
+}
+
+.order-items:nth-child(3) {
+  border-bottom: 1px solid var(--primary-border-color);
+}
+
+.image-cont {
+  width: 33.33%;
+  padding: .5rem;
+}
+
+.image-cont .image {
+  height: 4rem;
+  width: 4rem;
+  object-fit: contain;
+  border-radius: 50%;
+  background: white;
+}
+
+.quantity-cont {
+  width: 33.33%;
+  padding: .5rem;
+}
+
+.price-cont {
+  width: 33.33%;
+  padding: .5rem;
+  display: flex;
+}
+
+.name-cont {
+  width: 100%;
+  padding: .5rem;
+  font-weight: 500;
+}

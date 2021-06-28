@@ -1,0 +1,8 @@
+.loading {
+  position: absolute;
+  left: 49%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  color: var(--primary)!important;
+  margin: auto;
+}

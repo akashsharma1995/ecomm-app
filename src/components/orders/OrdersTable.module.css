@@ -1,0 +1,40 @@
+.table {
+  border: 1px solid var(--primary-border-color);
+  border-collapse: collapse;
+  width: 100%;
+  animation: showup .2s;
+}
+
+.tr:not(:last-child) {
+  border-bottom: 1px solid var(--primary-border-color);
+}
+
+.thead {
+  background: var(--primary);
+  color: white;
+  font-weight: 700;
+}
+
+.thead td {
+  padding: 1rem;
+}
+
+.tbody td {
+  padding: 1rem;
+}
+
+.tbody > tr:hover {
+  background: var(--table-hover-background);
+  cursor: pointer;
+}
+
+.amount-cont {
+  display: flex;
+  align-items: center;
+}
+
+@media all and (max-width:600px) {
+  .table {
+    display: none;
+  }
+}

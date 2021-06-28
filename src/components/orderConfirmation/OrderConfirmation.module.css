@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  gap: 1rem;
+  padding-top: 5rem;
+  animation: showup .2s;
+}
+
+.icon-container {
+  border-radius: 100%;
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-success-cont {
+  background: green;
+}
+
+.icon-failure-cont {
+  background: red;
+}
+
+.icon-warning {
+  fill: orange!important;
+  font-size: 3rem!important;
+}
+
+.icon {
+  fill: white!important;
+  font-size: 3rem!important;
+}
+
+.msg-container {
+  background: #edeaea;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

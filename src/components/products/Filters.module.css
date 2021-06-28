@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  font-size: inherit;
+}
+
+.container select {
+  font-size: inherit;
+  font: inherit;
+}
+
+.container > div:nth-child(1) {
+  margin-right: .5rem;
+}

@@ -1,0 +1,36 @@
+:root {
+  --primary: teal;
+  --primary-light: #01adad;
+  --icon-hover-background-color: #d7d7d5;
+  --primary-border-color: lightgrey;
+  --highlighted-grey-color: rgb(239 237 237);
+  --primary-text-color: rgb(0, 0, 0);
+  --table-hover-background: #f6f3f3;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Urbanist', sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.app-loading-container {
+  display: flex;
+  height: 100vh;
+  width: 100vh;
+  justify-content: center;
+  align-items: center;
+}

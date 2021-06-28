@@ -1,0 +1,40 @@
+.container {
+  min-height: 100vh;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.home-icon {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 4rem!important;
+  z-index: 101;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.form {
+  background-color: white;
+  max-width: 50rem;
+  padding: 2rem;
+  opacity: 1;
+  z-index: 101;
+  border-radius: 1rem;
+}
+
+@media (max-width: 600px) {
+  .form {
+    width: 90%;
+    padding: 2rem 1.2rem;
+  }
+
+  .home-icon {
+    top: 1rem;
+    left: 1rem;
+    font-size: 3rem!important;
+  }
+}

@@ -1,0 +1,65 @@
+.container {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  animation: showup .2s;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+    transform: scale(.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.arrow {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: white;
+  opacity: .5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.arrowleft {
+  left: 1rem;
+}
+
+.arrowright {
+  right: 1rem;
+}
+
+.wrapper {
+  transform: translate(-0vw);
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  transition: all 1.5s ease;
+}
+
+.images {
+  width: 100vw;
+}
+
+@media all and (min-width:1000px){
+  .slide {
+    min-height: 15rem;
+  }
+}

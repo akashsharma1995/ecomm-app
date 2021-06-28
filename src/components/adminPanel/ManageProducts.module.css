@@ -1,0 +1,57 @@
+.container {
+  width: 93%;
+  margin: 1rem auto;
+  position: relative;
+}
+
+.container > .table {
+  width: 100%;
+  box-shadow: 0 0 4px 1px lightgray;
+  border-collapse: collapse;
+}
+
+.tbody {
+  display: block;
+  height: calc(100vh - 9rem);
+  overflow: auto;
+}
+
+.container > h2 {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.del-icon {
+  fill: lightslategray!important;
+  cursor: pointer;
+}
+
+.cell-txt {
+  font-weight: 500;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.image-cont {
+  height: 3rem;
+  width: 3rem;
+  overflow: hidden;
+}
+
+/* .tr:nth-child(even) {
+  background: lightgray;
+} */
+
+.tr:not(:last-child) {
+  border-bottom: 1px solid var(--primary-border-color);
+}

@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.top-section {
+  align-items: center;
+}
+
+.top-section span {
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.top-section > button {
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 600px) {
+  .wrapper {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-section .continue-shopping-btn {
+    width: 100%;
+  }
+
+  .top-section .shopping-bag {
+    display: none;
+  }
+
+  .top-section .checkout-btn {
+    display: none;
+  }
+}

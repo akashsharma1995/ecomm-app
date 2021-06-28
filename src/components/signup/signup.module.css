@@ -1,0 +1,71 @@
+.loading {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.form-wrapper {
+  background-color: white;
+  max-width: 50rem;
+  opacity: 1;
+  z-index: 101;
+  border-radius: 1rem;
+}
+
+.form-wrapper > .lock {
+  width: 100%;
+  fill: var(--primary)!important;
+}
+
+.form-wrapper > p {
+  text-align: center;
+}
+
+.form-wrapper > * {
+  margin-bottom: .5rem;
+}
+
+.form-wrapper > .error {
+  color: red;
+  margin-bottom: .5rem;
+}
+
+.form-wrapper label {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.form-wrapper input {
+  padding: .5rem;
+  min-width: 25rem;
+  display: block;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.signup-btn {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.transparentbtn {
+  color: teal;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.form-wrapper p {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .form-wrapper > input {
+    width: 100%;
+    min-width: auto;
+  }
+}

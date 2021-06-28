@@ -1,0 +1,14 @@
+.quantity-manipulator {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-manipulator > .button {
+  margin: 0 .5rem;
+  padding: .3rem .5rem;
+}
+
+.quantity-manipulator div {
+  width: 2rem;
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+.product-details-container > *{
+  margin-bottom: .3rem!important;
+}
+
+.rating {
+  background: forestgreen;
+  color: white;
+  font-weight: 700;
+  padding: .1rem .2rem;
+  display: flex;
+}
+
+.rating-container {
+  margin: .5rem 0;
+  display: flex;
+}
+
+.rupee-symbol {
+  font-size: inherit;
+}
+
+.price-block {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}

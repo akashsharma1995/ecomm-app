@@ -1,0 +1,13 @@
+.error {
+  color: red;
+}
+
+.save-button {
+  margin-top: .3rem;
+}
+
+.form {
+  display: flex;
+  gap: .5rem;
+  flex-direction: column;
+}
